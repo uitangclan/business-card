@@ -72,6 +72,7 @@ fun BusinessCard(modifier: Modifier = Modifier) {
             text = stringResource(R.string.your_name),
             fontSize = 48.sp
         )
+        Spacer(Modifier.height(10.dp))
         Text(
             text = stringResource(R.string.job_title),
             color = Color(0xFF3ddc84)
